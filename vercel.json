@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    { "source": "/((?!.*\\.(pdf|png|jpg|jpeg|gif|css|js|svg|ico|woff|woff2|ttf|eot)$).*)", "destination": "/" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*\\.pdf)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"Shuma_Jensen_Resume.pdf\""
+        }
+      ]
+    }
+  ]
+}
