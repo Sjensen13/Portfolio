@@ -247,3 +247,7 @@ If you have any questions or need help, feel free to:
 ---
 
 **Made with ❤️ and lots of ☕**
+
+## 🌐 Live Website
+
+**Visit my portfolio:** [https://sjensen13.github.io/Portfolio/](https://sjensen13.github.io/Portfolio/)
