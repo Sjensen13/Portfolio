@@ -161,7 +161,7 @@ const Home: React.FC = () => {
               </motion.button>
               
               <PDFDownload
-                href="/Resume.pdf"
+                href="/Portfolio/Resume.pdf"
                 filename="Shuma_Jensen_Resume.pdf"
                 className="btn-secondary flex items-center space-x-2"
                 onMouseEnter={() => handleMouseEnter('Download CV')}

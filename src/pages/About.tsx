@@ -123,7 +123,7 @@ const About: React.FC = () => {
               </div>
               
               <PDFDownload
-                href="/Resume.pdf"
+                href="/Portfolio/Resume.pdf"
                 filename="Shuma_Jensen_Resume.pdf"
                 className="btn-primary w-full flex items-center justify-center space-x-2"
                 onMouseEnter={() => handleMouseEnter('Download Resume')}
